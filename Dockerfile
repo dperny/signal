@@ -5,4 +5,4 @@ WORKDIR /go/src/github.com/dperny/signal
 
 COPY . /go/src/github.com/dperny/signal
 
-CMD ["go", "run", "main.go"]
+ENTRYPOINT ["go", "run", "main.go"]
